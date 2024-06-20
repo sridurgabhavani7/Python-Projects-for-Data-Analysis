@@ -1,7 +1,7 @@
-** FLIPKART SENTIMENT ANALYSIS USING PYTHON
+**FLIPKART SENTIMENT ANALYSIS USING PYTHON**
 I have learning more about python and machine learning libraries to brush up my data skills, Today I have taken a kaggle dataset of FLIPKART Reviews to perform Sentiment Analysis.
 
-**Data Import and Initial Exploration:
+**Data Import and Initial Exploration:**
 
 #Import the dataset and inspect its structure.
 Check for any missing values in the dataset.
@@ -32,7 +32,8 @@ Review          0
 Rating          0
 dtype: int64
 
-** Data Preprocessing:
+** Data Preprocessing:**
+
 #Clean the text data by removing noise such as URLs, punctuation, and stopwords.
 import nltk
 import re
@@ -57,7 +58,8 @@ def clean(text):
     return text
 data["Review"] = data["Review"].apply(clean)
 
-**Visualization:
+**Visualization:**
+
 #Visualize the distribution of ratings using a pie chart.
 
 ratings = data["Rating"].value_counts()
@@ -80,7 +82,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.show()
 
-**Sentiment Analysis:
+**Sentiment Analysis:**
 
 #Utilize the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis 
 
@@ -129,4 +131,6 @@ Negative:  96.775
 Neutral:  1283.688
 >>>
 
-**Conclusion: After the analysis we found the reviwers are on Neutral Side, and looking on scores We can say people are satisfied by FLIPKART services and products.
+**Conclusion:**
+
+After the analysis we found the reviwers are on Neutral Side, and looking on scores We can say people are satisfied by FLIPKART services and products.
