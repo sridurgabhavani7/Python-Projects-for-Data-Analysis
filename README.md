@@ -1,4 +1,4 @@
-**FLIPKART SENTIMENT ANALYSIS USING PYTHON: **
+**FLIPKART SENTIMENT ANALYSIS USING PYTHON:**
 
 This project analyzes sentiment from Flipkart reviews using Python. The dataset used for this analysis is sourced from Kaggle, containing product reviews from Flipkart customers.
 
