@@ -1,7 +1,9 @@
-**FLIPKART SENTIMENT ANALYSIS USING PYTHON**
+**FLIPKART SENTIMENT ANALYSIS USING PYTHON: **
+
 This project analyzes sentiment from Flipkart reviews using Python. The dataset used for this analysis is sourced from Kaggle, containing product reviews from Flipkart customers.
 
 **Overview**
+
 The analysis involves several steps:
 
 1.Data preprocessing to clean the reviews data.
@@ -9,21 +11,25 @@ The analysis involves several steps:
 3.Visualization of review sentiments using plots and word clouds.
 
 **Libraries Used**
+
 pandas for data manipulation and analysis.
 seaborn, matplotlib.pyplot for data visualization.
 nltk for natural language processing tasks.
 wordcloud for generating word clouds.
 
 **Dataset**
+
 The dataset used is available publicly on GitHub: https://raw.githubusercontent.com/amankharwal/Website-data/master/flipkart_reviews.csv
 
 Flipkart Reviews Dataset
 **Installation**
+
 Before running the script, make sure you have the required libraries installed:
 
  #pip install pandas seaborn matplotlib nltk wordcloud plotly
  
 **Steps**
+
 **Data Import and Initial Exploration:**
 
 Import the dataset and inspect its structure.
@@ -42,7 +48,8 @@ Utilize the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment an
 
 Visualize the distribution of ratings using a pie chart.
 Create a word cloud to visualize the most frequent words in the reviews.
-Conclusion:
+
+**Conclusion:**
 
 Analyze the sentiment scores to draw conclusions about customer sentiment towards Flipkart products and services.
 **Usage**
